@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<link rel="icon" href="img/logo.svg">
+<div class="loader-container">
+    <div class="loader">Loading...</div>
+</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <style>
+        .loader-container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            position: fixed;
+            z-index: 3000;
+        }
+        .loader,
+        .loader:before,
+        .loader:after {
+        border-radius: 50%;
+        width: 2.5em;
+        height: 2.5em;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation: load7 1.8s infinite ease-in-out;
+        animation: load7 1.8s infinite ease-in-out;
+        }
+        .loader {
+        color: #ffee00;
+        font-size: 10px;
+        margin: 80px auto;
+        position: relative;
+        text-indent: -9999em;
+        -webkit-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+        }
+        .loader:before,
+        .loader:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        }
+        .loader:before {
+        left: -3.5em;
+        -webkit-animation-delay: -0.32s;
+        animation-delay: -0.32s;
+        }
+        .loader:after {
+        left: 3.5em;
+        }
+        @-webkit-keyframes load7 {
+        0%,
+        80%,
+        100% {
+            box-shadow: 0 2.5em 0 -1.3em;
+        }
+        40% {
+            box-shadow: 0 2.5em 0 0;
+        }
+        }
+        @keyframes load7 {
+        0%,
+        80%,
+        100% {
+            box-shadow: 0 2.5em 0 -1.3em;
+        }
+        40% {
+            box-shadow: 0 2.5em 0 0;
+        }
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="vendor/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="vendor/animate.css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header start -->
+    <header class="container-fluid header animate__animated animate__fadeInDown">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="">
+                            <nav class="navbar navbar-expand-lg navbar-dark px-0">
+                                <a class="navbar-brand" href="#myanmar">
+                                    <div class="d-flex align-content-center">
+                                        <img src="img/logo.svg" alt="" style="width: 50px;">
+                                        <span class="h3 font-weight-bold mb-0 ml-3 text-uppercase">Travel</span>
+                                    </div>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <i class="fas fa-bars fa-lg menu"></i>
+                                </button>
+                              
+                                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
+                                  <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" href="#myanmar">Myanmar <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" href="#blog">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#tours">Tours & Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#contact">Contact</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- section myanmar start  -->
+    <section id="myanmar" class="myanmar container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row d-flex align-items-center vh-100">
+                    <div class="col-12 col-lg-6 myanmar-box">
+                        <div class="animate__animated animate__zoomIn animate__delay-1s">
+                            <div class="mb-4">
+                                <h4 class="text-primary mb-0 font-weight-bold">
+                                    Hello, Welcome Mingalarpar
+                                </h4>
+                                <h1 class="text-white font-weight-bold my-4" style="font-size: 60px;">
+                                    Travelling Myanmar
+                                </h1>
+                                <p class="text-white-50 mb-0" style="width: 90%;">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem mollitia quas dolor error vel exercitationem delectus, animi temporibus. Nobis, hic! Modi magni impedit architecto id neque ipsa et tenetur corrupti!
+                                </p>
+                            </div>
+                            <div class="mt-5">
+                                <a href="#" class="btn btn-primary mr-3 font-weight-normal button-seemore" >Call Now</a>
+                                <a href="#" class="btn btn-outline-primary font-weight-normal button-seemore-out">Tours</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 video-icon animate__animated animate__zoomIn animate__delay-1s">
+                        <a href="#" class="video-main">
+                            <div class="video-item">
+                                <img src="img/play-circle-fill.svg" alt="" style="width: 100px;">
+                            </div>                                    
+                        </a>
+                    </div>
+                </div>
+                <div class="icon d-none d-md-block animate__animated animate__fadeInUp animate__delay-2s">
+                    <i class="fab fa-facebook-square mr-4 text-white-50"></i>
+                    <i class="fab fa-instagram mr-4 text-white-50"></i>
+                    <i class="fab fa-twitter mr-4 text-white-50"></i>
+                    <i class="fab fa-youtube mr-4 text-white-50"></i>
+                </div>
+                <a href="#blog" class="scroll d-none d-md-block animate__animated animate__fadeInUp animate__delay-1s">
+                    <div class="animate__animated animate__fadeInDown animate__infinite">
+                        <i class="bi bi-caret-down-fill text-primary " style="font-size: 25px;"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- section myanmar end  -->
+
+    <!-- section blog start  -->
+    <section id="blog" class="blog container-fluid bg-secondary">
+        <div class="row min-vh-100 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-5 wow animate__zoomIn">
+                            <span class="text-white h5">Blog</span>
+                            <h3 class="text-primary mt-3">
+                                Let's Go, Watch Now
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <d4v class="col-12 col-md-6 col-lg-4">
+                        <div class="wow animate__zoomIn">
+                            <div class="card">
+                                <img src="img/5.jpg" class="card-img-top" alt="" style="height: 350px;">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="d-flex align-content-center justify-content-between mb-3">
+                                            <span class="mb-0 text-primary h5">Bagan</span>
+                                            <span class="mb-0 text-primary h5">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </span>
+                                        </div>
+                                        <p class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione nihil, quaerat sequi unde recusandae, 
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="video">
+                                    <div class="video-item">
+                                        <img src="img/play-circle-fill.svg" alt="" style="width: 80px;">
+                                    </div>                                    
+                                </a>
+                            </div>
+                        </div>
+                    </d4v>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="mt-3 mt-md-0 wow animate__zoomIn">
+                            <div class="card">
+                                <img src="img/12.jpg" class="card-img-top" alt="" style="height: 350px;">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="d-flex align-content-center justify-content-between mb-3">
+                                            <span class="mb-0 text-primary h5">U Pain</span>
+                                            <span class="mb-0 text-primary h5">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </span>
+                                        </div>
+                                        <p class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione nihil, quaerat sequi unde recusandae, 
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="video">
+                                    <div class="video-item">
+                                        <img src="img/play-circle-fill.svg" alt="" style="width: 80px;">
+                                    </div>                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="mt-4 mt-lg-0 wow animate__zoomIn">
+                            <div class="card">
+                                <img src="img/8.jpg" class="card-img-top" alt="" style="height: 350px;">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="d-flex align-content-center justify-content-between mb-3">
+                                            <span class="mb-0 text-primary h5">Village</span>
+                                            <span class="mb-0 text-primary h5">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </span>
+                                        </div>
+                                        <p class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione nihil, quaerat sequi unde recusandae, 
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="video">
+                                    <div class="video-item">
+                                        <img src="img/play-circle-fill.svg" alt="" style="width: 80px;">
+                                    </div>                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="mt-4 d-lg-none wow animate__zoomIn">
+                            <div class="card">
+                                <img src="img/10.jpg" class="card-img-top" alt="" style="height: 350px;">
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <div class="d-flex align-content-center justify-content-between mb-3">
+                                            <span class="mb-0 text-primary h5">Village</span>
+                                            <span class="mb-0 text-primary h5">
+                                                <i class="fas fa-chevron-right"></i>
+                                            </span>
+                                        </div>
+                                        <p class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ratione nihil, quaerat sequi unde recusandae, 
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="video">
+                                    <div class="video-item">
+                                        <img src="img/play-circle-fill.svg" alt="" style="width: 80px;">
+                                    </div>                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 wow animate__zoomIn">
+                        <div class="text-center">
+                            <a href="#" class="btn btn-outline-primary font-weight-normal button-seemore">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section blog end  -->
+
+    <!-- section about start  -->
+    <section id="about" class="about container-fluid bg-secondary">
+        <div class="row min-vh-100 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-5 wow animate__zoomIn">
+                            <span class="text-white h5">About</span>
+                            <h3 class="text-primary mt-3">
+                                What is <br> Myanmar(Burma)?
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-12 col-md-6 col-lg-4 about-item">
+                        <div class="wow animate__zoomIn">
+                            <h4 class="text-primary mb-3">History</h4>
+                            <p class="text-white-50">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, dolore. A eligendi cum, quae suscipit facilis recusandae eveniet atque repellendus. Exercitationem, ullam. Maxime, explicabo dignissimos quas quisquam recusandae perferendis voluptatum.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit veritatis officiis facilis suscipit. Nemo consectetur eum vero culpa esse quae? Distinctio quam provident nemo veritatis repellendus inventore, similique magnam asperiores.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 about-item">
+                        <div class="wow animate__zoomIn">
+                            <h4 class="text-primary mb-3">Culture</h4>
+                            <p class="text-white-50">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, dolore. A eligendi cum, quae suscipit facilis recusandae eveniet atque repellendus. Exercitationem, ullam. Maxime, explicabo dignissimos quas quisquam recusandae perferendis voluptatum.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit veritatis officiis facilis suscipit. Nemo consectetur eum vero culpa esse quae? Distinctio quam provident nemo veritatis repellendus inventore, similique magnam asperiores.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 about-item">
+                        <div class="wow animate__zoomIn">
+                            <h4 class="text-primary mb-3">Traditional</h4>
+                            <p class="text-white-50">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, dolore. A eligendi cum, quae suscipit facilis recusandae eveniet atque repellendus. Exercitationem, ullam. Maxime, explicabo dignissimos quas quisquam recusandae perferendis voluptatum.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit veritatis officiis facilis suscipit. Nemo consectetur eum vero culpa esse quae? Distinctio quam provident nemo veritatis repellendus inventore, similique magnam asperiores.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 about-item">
+                        <div class="d-lg-none wow animate__zoomIn ">
+                            <h4 class="text-primary mb-3">More History</h4>
+                            <p class="text-white-50">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, dolore. A eligendi cum, quae suscipit facilis recusandae eveniet atque repellendus. Exercitationem, ullam. Maxime, explicabo dignissimos quas quisquam recusandae perferendis voluptatum.
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit veritatis officiis facilis suscipit. Nemo consectetur eum vero culpa esse quae? Distinctio quam provident nemo veritatis repellendus inventore, similique magnam asperiores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 wow animate__zoomIn">
+                        <div class="text-center">
+                            <a href="#" class="btn btn-outline-primary font-weight-normal button-seemore">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section about end  -->
+
+    <!-- section tours start  -->
+    <section id="tours" class="tours container-fluid bg-secondary">
+        <div class="row min-vh-100 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-5 wow animate__zoomIn">
+                            <span class="text-white h5">Tours & Services</span>
+                            <h3 class="text-primary mt-3">
+                                Let us, <br>show you what we can do
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 wow animate__zoomIn">
+                        <div class="card mb-3" style="width: 100%;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-5">
+                                    <img src="img/1.jpg" class="card-img" alt="...">
+                                  </div>
+                                  <div class="col-md-7">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <div class="d-flex justify-content-between align-content-center">
+                                                <h5 class="text-primary font-weight-bold mb-0">Bagan</h5>
+                                                <a href="#" class="text-primary font-weight-bold btn btn-outline-primary" style="padding: 0.375rem 1.75rem !important;">Case Study</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quia molestias odit quod, autem dolorem enim voluptatem placeat iure esse inventore.
+                                            <div class="row mt-4">
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <img src="img/airoplane.svg" alt="" style="width: 45px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">Bagan</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">4 Days</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">$ 400</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-4">
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <img src="img/bus.svg" alt="" style="width: 45px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">Bagan</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">4 Days</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">$ 300</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-4">
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <img src="img/train.svg" alt="" style="width: 45px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">Bagan</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">4 Days</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">$ 200</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-4">
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <img src="img/menu.svg" alt="" style="width: 45px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">Custom Choice</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">$ 00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3 wow animate__zoomIn">
+                        <div class="card mb-0" style="width: 100%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <div class="d-flex justify-content-between align-content-center">
+                                                <h5 class="text-primary font-weight-bold mb-0">Beach</h5>
+                                                <a href="#" class="text-primary font-weight-bold btn btn-outline-primary" style="padding: 0.375rem 1.75rem !important;">Case Study</a>
+                                            </div>
+                                        </div>
+                                        <div class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quia molestias odit quod, autem dolorem enim voluptatem placeat iure esse inventore.
+                                            <div class="row mt-4">
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <img src="img/airoplane.svg" alt="" style="width: 45px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">Beach/span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">4 Days</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">$ 400</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-4">
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <img src="img/bus.svg" alt="" style="width: 45px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">Bagan</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">4 Days</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">$ 300</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-4">
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <img src="img/train.svg" alt="" style="width: 45px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">Bagan</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">4 Days</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">$ 200</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-4">
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <img src="img/menu.svg" alt="" style="width: 45px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">Custom Choice</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="">
+                                                        <span class="h5 text-primary font-weight-bold mb-0">$ 00</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                              <div class="col-md-5">
+                                <img src="img/3.jpg" class="card-img" alt="...">
+                              </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5 wow animate__zoomIn">
+                        <div class="text-center">
+                            <a href="#" class="btn btn-outline-primary font-weight-normal button-seemore">Borwse Cases & See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section tours end  -->
+
+    <section class="testimonials container-fluid bg-secondary">
+        <div class="row min-vh-100 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <span class="text-white h5">Testimonials</span>
+                            <h3 class="text-primary mt-3">
+                                Our customers love us
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <div class="card mb-3" style="width: 100%;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-3 ">
+                                    <div class="profile-img-1 bd-half-1">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <div class="d-flex justify-content-between align-content-center">
+                                                <h5 class="text-primary font-weight-bold mb-0">John</h5>
+                                                <img src="img/heart.svg" alt="" style="width: 25px;">
+                                            </div>
+                                        </div>
+                                        <div class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <div class="card mb-3" style="width: 100%;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-3 ">
+                                    <div class="profile-img-2 bd-half-1">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <div class="d-flex justify-content-between align-content-center">
+                                                <h5 class="text-primary font-weight-bold mb-0">Jerry</h5>
+                                                <img src="img/heart.svg" alt="" style="width: 25px;">
+                                            </div>
+                                        </div>
+                                        <div class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <div class="card mb-3" style="width: 100%;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-3 ">
+                                    <div class="profile-img-3 bd-half-1">
+                                    </div>
+                                  </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <div class="d-flex justify-content-between align-content-center">
+                                                    <h5 class="text-primary font-weight-bold mb-0">Kithy</h5>
+                                                    <img src="img/heart.svg" alt="" style="width: 25px;">
+                                                </div>
+                                            </div>
+                                            <div class="card-text text-white-50">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <div class="card mb-3" style="width: 100%;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-3 ">
+                                    <div class="profile-img-4 bd-half-1">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-9">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <div class="d-flex justify-content-between align-content-center">
+                                                    <h5 class="text-primary font-weight-bold mb-0">Annie</h5>
+                                                    <img src="img/heart.svg" alt="" style="width: 25px;">
+                                                </div>
+                                            </div>
+                                            <div class="card-text text-white-50">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <div class="card mb-3" style="width: 100%;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-3 ">
+                                    <div class="profile-img-5 bd-half-1">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-9">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <div class="d-flex justify-content-between align-content-center">
+                                                    <h5 class="text-primary font-weight-bold mb-0">Milay</h5>
+                                                    <img src="img/heart.svg" alt="" style="width: 25px;">
+                                                </div>
+                                            </div>
+                                            <div class="card-text text-white-50">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <div class="card mb-3" style="width: 100%;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-3 ">
+                                    <div class="profile-img-6 bd-half-1">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <div class="d-flex justify-content-between align-content-center">
+                                                <h5 class="text-primary font-weight-bold mb-0">Harey</h5>
+                                                <img src="img/heart.svg" alt="" style="width: 25px;">
+                                            </div>
+                                        </div>
+                                        <div class="card-text text-white-50">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section contact start  -->
+    <section id="contact" class="contact container-fluid bg-secondary">
+        <div class="row min-vh-100 py-5">
+            <div class="container">
+                 <div class="row">
+                    <div class="col-12 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <span class="text-white h5">Contact</span>
+                            <h3 class="text-primary mt-3">
+                                Get in touch
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <h4 class="text-white">Contact info</h4>
+                        </div>
+                        <div class="mb-4">
+                            <div class="text-primary d-flex align-items-center">
+                                <span class="mr-5"><i class="fas fa-phone-square-alt fa-lg"></i></span>
+                                <span class="">09760700966,09692936577</span>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="text-primary d-flex align-items-center">
+                                <span class="mr-5"><i class="fas fa-envelope-square fa-lg"></i></span>
+                                <span class="">kaungkhant235@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="text-primary d-flex align-items-center">
+                                <span class="mr-5"><i class="fab fa-facebook-square fa-lg"></i></span>
+                                <span class="">Travel Myanmar</span>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="text-primary d-flex align-items-center">
+                                <span class="mr-5"><i class="fas fa-home fa-lg"></i></span>
+                                <span class="">No,1020, Shin Pin Bone Pwint Road,Thamasanda street, Pathein</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 wow animate__zoomIn">
+                        <div class="mb-5">
+                            <h4 class="text-white">Contact form</h4>
+                        </div>
+                        <div class="">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="example@gmail.com">
+                                </div>
+                                <div class="form-group">
+                                    <textarea type="text" class="form-control" rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <div class="wow animate__zoomIn animate__delay-1s">
+                                    <a href="#" class="btn btn-outline-primary font-weight-normal button-seemore">Send Message</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5 wow animate__zoomIn">
+                    <div class="col-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.8038380673443!2d94.74163531446737!3d16.78643228844136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30bfea14afca8009%3A0xbc97049a79d31e0e!2sShin%20Pin%20Bone%20Pwint%20Rd%2C%20Pathein!5e0!3m2!1sen!2smm!4v1610286686807!5m2!1sen!2smm" width="100%" height="300" frameborder="0" style="border:0.25rem;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="col-12 ">
+                        <div class="text-center  wow animate__fadeInUp animate__infinite">
+                            <a href="#myanmar" class="text-primary">
+                                <i class="bi bi-caret-up-fill" style="font-size: 25px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 wow animate__fadeInUp">
+                        <div class="text-center">
+                            <span class="text-primary">
+                                Copy Right © 2021, All Rights Reserved.Design By Kkz
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section contact end  -->
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="vendor/WOW/dist/wow.min.js"></script>
+    <script src="vendor/way_point/jquery.waypoints.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
